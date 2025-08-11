@@ -3,6 +3,8 @@
 ## 📈 Project Overview
 
 This project demonstrates an **end-to-end data normalization and automation pipeline** in **Microsoft Fabric**, starting from raw transaction data and ending with a fully refreshed semantic model ready for **Power BI** reporting.
+[![Watch the Demo Video](https://img.shields.io/badge/Watch%20Video-Click%20Here-red?style=for-the-badge&logo=google-drive)](https://drive.google.com/file/d/1yXWmCN9t5AJxaRMsVk7O3-GSJCL6x-Tm/view?usp=sharing)
+
 
 The workflow covers:
 
