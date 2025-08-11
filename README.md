@@ -31,6 +31,7 @@ The table contains a mix of:
 ---
 
 ## 🛠️ Project Steps
+<img width="1010" height="490" alt="image" src="https://github.com/user-attachments/assets/aa8261a3-82c6-4562-8a8d-dc3aa7323695" />
 
 ### 1. Lakehouse Creation
 
@@ -38,6 +39,7 @@ The table contains a mix of:
 * Uploaded the raw transaction file to the **Files** section.
 
 ### 2. Dataflow Gen2 (Power Query) — Data Normalization
+<img width="821" height="251" alt="query transformationtables" src="https://github.com/user-attachments/assets/86d9ce90-bae1-4c8b-a2f6-797ab8f03f6d" />
 
 * Built a **Dataflow Gen2** using Power Query.
 * Split the raw data into **four normalized tables**:
@@ -49,11 +51,14 @@ The table contains a mix of:
 * Ensured each table contains **unique primary keys** and **no redundant data**.
 
 ### 3. Loading into Lakehouse
+<img width="203" height="272" alt="tablesnm" src="https://github.com/user-attachments/assets/5c10f048-c976-48a4-995c-aaf51a86d5ee" />
 
 * Each normalized table was loaded into the **Tables** section of the Lakehouse.
 * Resulting in a clean **star schema** design.
 
 ### 4. Semantic Model Creation
+<img width="689" height="394" alt="nmsemantic" src="https://github.com/user-attachments/assets/ca6595cf-ddcf-432f-b673-0d2fa4be33f8" />
+
 
 * Built a **semantic model** from normalized tables.
 * Created a sample measure:
@@ -64,6 +69,7 @@ The table contains a mix of:
 * Model is ready to be connected to **Power BI**.
 
 ### 5. Automation with Data Pipeline
+<img width="745" height="246" alt="nm1" src="https://github.com/user-attachments/assets/288108da-d2cf-477d-a489-43771039a8e7" />
 
 * Created a **Data Pipeline** in Fabric.
 * Pipeline triggers on **new file upload** to the Lakehouse.
@@ -120,6 +126,7 @@ The dataset was normalized according to **1NF, 2NF, and 3NF** principles:
 2. Data Pipeline triggers automatically.
 3. Dataflow Gen2 processes and updates normalized tables.
 4. Semantic model refreshes and data is instantly available in Power BI.
+
 
 ---
 
